@@ -1,0 +1,59 @@
+.contact-form-wrapper {
+  width: 100%;
+}
+
+.contact-form {
+  width: 30%;
+  padding: 3rem 1rem 2rem 1rem;
+  background-color: $dark-grey;
+  color: $black;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-top: 3em;
+  padding-top: 5px;
+  outline: none;
+  align-items: flex-start;
+  text-transform: uppercase;
+}
+
+::-webkit-resizer {
+  display: none;
+}
+
+.form-control {
+  box-shadow: none;
+  background-color: $dark-grey;
+  border-radius: 0;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+#name {
+  background-color: $dark-grey;
+  color: $white;
+}
+
+#email {
+  background-color: $dark-grey;
+  color: $white;
+}
+
+#message {
+  min-height: 2em;
+  resize: vertical;
+  overflow: hidden;
+  border-bottom: 0px;
+  background-color: $dark-grey;
+  color: $white;
+}
+
+#send-btn {
+  margin-top: 10px;
+  background-origin: 1px $white;
+  letter-spacing: 2px;
+  background-color: $primary-color;
+}

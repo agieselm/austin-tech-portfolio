@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <title>Austin.tech</title>
+    <meta name="Austin.tech" content="Austin.tech, Full Stack Developer; Web Application Developer" />
+    <meta name="A simple portfolio of some of my favorite projects" content="Austin G | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+  </head>
+  <body>
+    <div id="top"></div>
+
+  <!--Nav Section-->
+  <header id="header">
+    <nav class="zone purple sticky">
+        <ul class="main-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li class="push"><a href="#contact">Contact</a></li>
+    </ul>
+    </nav>
+    </header>
+    <!--End Nav Section-->
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Austin</span>
+          <br />
+          I'm an Austin-based developer.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Learn more</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/me.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                I am a recent Computer Science graduate from Trinity University and fan of all things tech.
+              </p>
+              <p class="about-wrapper__info-text">
+                I love building projects from scratch and learning new technologies to solve complex problems I am passionate about. I believe in constantly seeking to improve myself, my team and the world every day.
+              </p>
+              <p class="about-wrapper__info-text">
+                Feel free to contact me via email at any time.
+              </p>
+              <span class="d-flex mt-3">
+                <a target="_self" class="cta-btn cta-btn--resume" href="https://drive.google.com/open?id=1GTsEhoGI1xht6An2lh3TIHB-Lym0Tj5m">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Projects
+          </h2>
+
+          <!-- Project 1 - TU-Way -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">TU-Way</h3>
+                <div>
+                  <p class="mb-4">
+                    <span>Stack: React-Native, Expo, Node.js, Express.js, Axios, GoogleMaps API.</span><br><br>
+                    <span>Task: Create a cross-platform responsive mobile wayfinding app for Trinity students or campus guests to navigate around campus.</span><br><br>
+                    <span>Role: Led a team of six students through the entire design and development lifecycle of the application. Used React Native to implement views that matched our initial design, used the GoogleMaps API to decode poly-lines and create functional real-time wayfinding, and communicated with stakeholders regularly about our progress and setbacks.</span><br><br>
+                    <span>Result: Completed deliverable given to stakeholders for deployment and/or handed down to another capstone group for further feature implementation.</span><br><br>
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/bbeyt/TU-Wayfinding">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/tu-way-logo.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Project 2 - Prime Rugby -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Prime Rugby</h3>
+                <div>
+                  <p class="mb-4">
+                    <span>Stack: React, Redux, Firebase.</span><br><br>
+                    <span>Task: Create a fully functional E-Commerce application to sell fitness programs and rugby merchandise, while also familiariz myself with the advanced features and capabilities of React, Redux, and noSQL databases using firebase.</span><br><br>
+                    <span>Role: Completely independent project</span><br><br>
+                    <span>Result: Working prototype soon to be production.</span><br><br>
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/prime-rugby-logo.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Project 3 - TU-Relay -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Tu-Relay</h3>
+                <div>
+                  <p class="mb-4">
+                    <span>Stack: Electron, Node.js, Express.js, Axios.</span><br><br>
+                    <span>Task: Create a message broadcasting system to relay emergencies and updates across campus.</span><br><br>
+                    <span>Role: Led a team of six students, delegating tasks and leading daily scrum meetings. Used Express.js and Axios to make a REST API to handle messages created and sent by the admin application. Used Electron to create a desktop client application to display messages sent to the API.</span><br><br>
+                    <span>Result: Working desktop message system (server and admin/client apps) delivered to stakeholders.</span><br><br>
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/bbeyt/TU-Relay">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/tu-relay-logo.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact
+        </h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+            Have a cool project idea? Are you hiring?
+          </p>
+          <a
+            class="cta-btn cta-btn--resume"
+            id="contact-popup"
+            href="#contact"
+            >Let's get in touch.</a
+          >
+          <div class="contact-form-wrapper">
+            <form class="contact-form" role="form" method="POST" action="./php/html_form_send.php">
+              <div class="form-group">  
+              <div class="col-sm-12">
+                <input class="form-control" id="name" name="name" type="text" placeholder="NAME">
+              </div>
+              </div>
+              <div class="form-group">  
+              <div class="col-sm-12">
+                <input class="form-control" id="email" name="email" type="email" placeholder="EMAIL">
+              </div>
+              </div>
+              <div class="form-group">  
+              <div class="col-sm-12">
+                <textarea class="form-control" id="message" name="message" placeholder="MESSAGE"></textarea>
+              </div>
+              </div>
+                <input class="cta-btn cta-btn--resume" id="send-btn" type="submit" value="Send">
+            </form>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a href="https://codepen.io/agieselm" target="_blank">
+            <i class="fa fa-codepen fa-inverse"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/agieselm" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/agieselm" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          © 2020 - <a href="https://github.com/agieselm" target="_blank">Austin Gieselman  |  </a>
+          <a target="_blank" href="https://icons8.com/icons/set/shutdown">Shutdown icon</a> by <a target="_blank" href="https://icons8.com">Icons8</a>
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
